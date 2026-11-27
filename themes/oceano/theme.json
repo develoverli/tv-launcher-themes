@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "oceano",
+  "name": "Océano",
+  "author": "adb-tv-studio",
+  "version": "1.0.0",
+  "layout": "grid",
+  "description": "Cuadrícula en azules fríos con un foco de brillo turquesa.",
+  "colors": {
+    "background": "#04121F",
+    "surface": "#0B2236",
+    "text": "#E6F4FF",
+    "accent": "#3DD6D0"
+  },
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#0B3556",
+      "#020A12"
+    ],
+    "angle": 180
+  },
+  "material": "glass",
+  "shape": "round",
+  "focus": "glow",
+  "font": "sans",
+  "motion": "smooth",
+  "labels": "focus",
+  "clock": {
+    "visible": true,
+    "size": "normal"
+  },
+  "columns": 5,
+  "glow": false
+}

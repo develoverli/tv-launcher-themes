@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "neon",
+  "name": "Neón",
+  "author": "adb-tv-studio",
+  "version": "1.0.0",
+  "layout": "sidebar",
+  "description": "Panel lateral, fondo profundo y un brillo de color en la app enfocada.",
+  "colors": {
+    "background": "#0D0221",
+    "surface": "#1A0B3D",
+    "text": "#F0F0FF",
+    "accent": "#00E5FF"
+  },
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#2A0A5E",
+      "#05010F"
+    ],
+    "angle": 135
+  },
+  "material": "glass",
+  "shape": "round",
+  "focus": "glow",
+  "font": "condensed",
+  "motion": "springy",
+  "labels": "focus",
+  "clock": {
+    "visible": true,
+    "size": "large"
+  },
+  "columns": 3,
+  "glow": true
+}

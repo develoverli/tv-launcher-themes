@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "name": "tv-launcher themes",
+  "themes": [
+    {
+      "id": "vidrio",
+      "name": "Vidrio",
+      "author": "adb-tv-studio",
+      "version": "1.0.0",
+      "description": "Vidrio translúcido, esquinas muy redondeadas y un foco que levanta la tarjeta.",
+      "layout": "rows",
+      "path": "themes/vidrio",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "cine",
+      "name": "Cine",
+      "author": "adb-tv-studio",
+      "version": "1.0.0",
+      "description": "Oscuro, con el banner de la app enfocada de fondo, como una cartelera.",
+      "layout": "rows",
+      "path": "themes/cine",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "author": "adb-tv-studio",
+      "version": "1.0.0",
+      "description": "Un reloj grande, pocas apps y nada más.",
+      "layout": "minimal",
+      "path": "themes/minimal",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "retro",
+      "name": "Retro",
+      "author": "adb-tv-studio",
+      "version": "1.0.0",
+      "description": "Cuadrícula de esquinas rectas, letra monoespaciada y colores de consola vieja.",
+      "layout": "grid",
+      "path": "themes/retro",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "papel",
+      "name": "Papel",
+      "author": "adb-tv-studio",
+      "version": "1.0.0",
+      "description": "Claro y cálido, con letra serif, para salas con mucha luz.",
+      "layout": "grid",
+      "path": "themes/papel",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "neon",
+      "name": "Neón",
+      "author": "adb-tv-studio",
+      "version": "1.0.0",
+      "description": "Panel lateral, fondo profundo y un brillo de color en la app enfocada.",
+      "layout": "sidebar",
+      "path": "themes/neon",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "bosque",
+      "name": "Bosque",
+      "author": "adb-tv-studio",
+      "version": "1.0.0",
+      "description": "El diseño clásico sobre un degradado verde profundo.",
+      "layout": "classic",
+      "path": "themes/bosque",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "oceano",
+      "name": "Océano",
+      "author": "adb-tv-studio",
+      "version": "1.0.0",
+      "description": "Cuadrícula en azules fríos con un foco de brillo turquesa.",
+      "layout": "grid",
+      "path": "themes/oceano",
+      "files": [
+        "theme.json"
+      ]
+    }
+  ]
+}

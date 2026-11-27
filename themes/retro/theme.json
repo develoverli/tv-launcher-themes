@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "retro",
+  "name": "Retro",
+  "author": "adb-tv-studio",
+  "version": "1.0.0",
+  "layout": "grid",
+  "description": "Cuadrícula de esquinas rectas, letra monoespaciada y colores de consola vieja.",
+  "colors": {
+    "background": "#1D1A2F",
+    "surface": "#2B2645",
+    "text": "#F4E9CD",
+    "accent": "#FF6B35"
+  },
+  "background": {
+    "type": "solid"
+  },
+  "material": "solid",
+  "shape": "square",
+  "focus": "outline",
+  "font": "mono",
+  "motion": "none",
+  "labels": "always",
+  "clock": {
+    "visible": true,
+    "size": "normal"
+  },
+  "columns": 5,
+  "glow": false
+}

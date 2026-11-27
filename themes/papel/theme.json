@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "papel",
+  "name": "Papel",
+  "author": "adb-tv-studio",
+  "version": "1.0.0",
+  "layout": "grid",
+  "description": "Claro y cálido, con letra serif, para salas con mucha luz.",
+  "colors": {
+    "background": "#F3EDE2",
+    "surface": "#E6DDCD",
+    "text": "#2A2622",
+    "accent": "#B5562F"
+  },
+  "background": {
+    "type": "solid"
+  },
+  "material": "solid",
+  "shape": "rounded",
+  "focus": "lift",
+  "font": "serif",
+  "motion": "smooth",
+  "labels": "always",
+  "clock": {
+    "visible": true,
+    "size": "normal"
+  },
+  "columns": 4,
+  "glow": false
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "vidrio",
+  "name": "Vidrio",
+  "author": "adb-tv-studio",
+  "version": "1.0.0",
+  "layout": "rows",
+  "description": "Vidrio translúcido, esquinas muy redondeadas y un foco que levanta la tarjeta.",
+  "colors": {
+    "background": "#0A0D14",
+    "surface": "#1C2333",
+    "text": "#F5F7FA",
+    "accent": "auto"
+  },
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#1B2A4A",
+      "#0A0D14"
+    ],
+    "angle": 180
+  },
+  "material": "glass",
+  "shape": "round",
+  "focus": "lift",
+  "font": "sans",
+  "motion": "smooth",
+  "labels": "focus",
+  "clock": {
+    "visible": true,
+    "size": "normal"
+  },
+  "columns": 4,
+  "glow": true
+}

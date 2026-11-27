@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "cine",
+  "name": "Cine",
+  "author": "adb-tv-studio",
+  "version": "1.0.0",
+  "layout": "rows",
+  "description": "Oscuro, con el banner de la app enfocada de fondo, como una cartelera.",
+  "colors": {
+    "background": "#050505",
+    "surface": "#141414",
+    "text": "#FFFFFF",
+    "accent": "auto"
+  },
+  "background": {
+    "type": "solid"
+  },
+  "material": "solid",
+  "shape": "rounded",
+  "focus": "scale",
+  "font": "outfit",
+  "motion": "smooth",
+  "labels": "never",
+  "clock": {
+    "visible": true,
+    "size": "small"
+  },
+  "columns": 5,
+  "glow": true
+}

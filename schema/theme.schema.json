@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "title": "tv-launcher theme",
+  "description": "A theme for tv-launcher: data only (no code). Applied by adb-tv-studio, which validates it against this schema before sending it to the TV.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name", "layout"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "id": {
+      "description": "Folder name on the TV. Lowercase letters, digits and dashes.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,39}$",
+      "not": { "const": "default" }
+    },
+    "name": { "type": "string", "minLength": 1, "maxLength": 40 },
+    "author": { "type": "string", "maxLength": 60 },
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "description": { "type": "string", "maxLength": 200 },
+    "layout": {
+      "description": "Screen layout built into tv-launcher.",
+      "enum": ["classic", "rows", "grid", "minimal", "sidebar"]
+    },
+    "colors": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "background": { "$ref": "#/$defs/color" },
+        "surface": { "$ref": "#/$defs/color" },
+        "text": { "$ref": "#/$defs/color" },
+        "accent": {
+          "description": "\"auto\" uses the focused app's banner colour.",
+          "anyOf": [{ "$ref": "#/$defs/color" }, { "const": "auto" }]
+        }
+      }
+    },
+    "background": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": { "enum": ["solid", "gradient", "image", "photos"] },
+        "colors": {
+          "description": "Gradient stops (type gradient).",
+          "type": "array",
+          "items": { "$ref": "#/$defs/color" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "angle": { "description": "Gradient direction in degrees, CSS style (0 = up).", "type": "integer", "minimum": 0, "maximum": 359 },
+        "image": { "description": "Image file in the theme folder (type image).", "$ref": "#/$defs/asset" },
+        "blur": { "description": "Blur radius in dp (Android 12+).", "type": "integer", "minimum": 0, "maximum": 25 },
+        "veil": { "description": "Darkening over images and photos, 0 to 0.9.", "type": "number", "minimum": 0, "maximum": 0.9 }
+      },
+      "allOf": [
+        { "if": { "properties": { "type": { "const": "gradient" } } }, "then": { "required": ["colors"] } },
+        { "if": { "properties": { "type": { "const": "image" } } }, "then": { "required": ["image"] } }
+      ]
+    },
+    "material": { "description": "Trays and pills.", "enum": ["solid", "glass", "clear"] },
+    "shape": { "description": "Corner style.", "enum": ["square", "rounded", "round"] },
+    "focus": { "description": "Focused card effect.", "enum": ["scale", "lift", "glow", "outline"] },
+    "font": { "enum": ["outfit", "sans", "serif", "mono", "condensed"] },
+    "motion": { "enum": ["none", "smooth", "springy"] },
+    "labels": { "description": "App names under the cards.", "enum": ["focus", "always", "never"] },
+    "clock": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "visible": { "type": "boolean" },
+        "size": { "enum": ["small", "normal", "large"] }
+      }
+    },
+    "columns": { "type": "integer", "minimum": 3, "maximum": 6 },
+    "glow": { "description": "Coloured light behind the dock.", "type": "boolean" }
+  },
+  "$defs": {
+    "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+    "asset": { "type": "string", "pattern": "^[a-z0-9_-]{1,40}\\.(png|jpg|jpeg|webp)$" }
+  }
+}

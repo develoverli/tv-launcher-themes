@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "bosque",
+  "name": "Bosque",
+  "author": "adb-tv-studio",
+  "version": "1.0.0",
+  "layout": "classic",
+  "description": "El diseño clásico sobre un degradado verde profundo.",
+  "colors": {
+    "background": "#07130D",
+    "surface": "#10241A",
+    "text": "#EEF5EF",
+    "accent": "auto"
+  },
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#163A26",
+      "#050C08"
+    ],
+    "angle": 160
+  },
+  "material": "glass",
+  "shape": "rounded",
+  "focus": "lift",
+  "font": "outfit",
+  "motion": "smooth",
+  "labels": "focus",
+  "clock": {
+    "visible": true,
+    "size": "normal"
+  },
+  "columns": 4,
+  "glow": true
+}

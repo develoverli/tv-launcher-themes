@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "minimal",
+  "name": "Minimal",
+  "author": "adb-tv-studio",
+  "version": "1.0.0",
+  "layout": "minimal",
+  "description": "Un reloj grande, pocas apps y nada más.",
+  "colors": {
+    "background": "#101012",
+    "surface": "#1A1A1D",
+    "text": "#E8E8EA",
+    "accent": "#E8E8EA"
+  },
+  "background": {
+    "type": "solid"
+  },
+  "material": "clear",
+  "shape": "rounded",
+  "focus": "outline",
+  "font": "outfit",
+  "motion": "smooth",
+  "labels": "always",
+  "clock": {
+    "visible": true,
+    "size": "large"
+  },
+  "columns": 4,
+  "glow": false
+}
