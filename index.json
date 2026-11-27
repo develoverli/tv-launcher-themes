@@ -6,8 +6,8 @@
       "id": "vidrio",
       "name": "Vidrio",
       "author": "adb-tv-studio",
-      "version": "1.0.0",
-      "description": "Vidrio translúcido, esquinas muy redondeadas y un foco que levanta la tarjeta.",
+      "version": "1.1.0",
+      "description": "Vidrio translúcido sobre grafito cálido y un foco que levanta la tarjeta.",
       "layout": "rows",
       "path": "themes/vidrio",
       "files": [
@@ -18,10 +18,22 @@
       "id": "cine",
       "name": "Cine",
       "author": "adb-tv-studio",
-      "version": "1.0.0",
-      "description": "Oscuro, con el banner de la app enfocada de fondo, como una cartelera.",
+      "version": "1.1.0",
+      "description": "Negro puro con el banner de la app enfocada de fondo: las carátulas mandan.",
       "layout": "rows",
       "path": "themes/cine",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "noche",
+      "name": "Noche",
+      "author": "adb-tv-studio",
+      "version": "1.1.0",
+      "description": "Para ver a oscuras: brillo bajo, texto atenuado y un acento ámbar que no encandila.",
+      "layout": "classic",
+      "path": "themes/noche",
       "files": [
         "theme.json"
       ]
@@ -30,22 +42,10 @@
       "id": "minimal",
       "name": "Minimal",
       "author": "adb-tv-studio",
-      "version": "1.0.0",
-      "description": "Un reloj grande, pocas apps y nada más.",
+      "version": "1.1.0",
+      "description": "Un reloj grande, un contorno fino y casi nada más.",
       "layout": "minimal",
       "path": "themes/minimal",
-      "files": [
-        "theme.json"
-      ]
-    },
-    {
-      "id": "retro",
-      "name": "Retro",
-      "author": "adb-tv-studio",
-      "version": "1.0.0",
-      "description": "Cuadrícula de esquinas rectas, letra monoespaciada y colores de consola vieja.",
-      "layout": "grid",
-      "path": "themes/retro",
       "files": [
         "theme.json"
       ]
@@ -54,7 +54,7 @@
       "id": "papel",
       "name": "Papel",
       "author": "adb-tv-studio",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Claro y cálido, con letra serif, para salas con mucha luz.",
       "layout": "grid",
       "path": "themes/papel",
@@ -63,13 +63,37 @@
       ]
     },
     {
-      "id": "neon",
-      "name": "Neón",
+      "id": "grafito",
+      "name": "Grafito",
       "author": "adb-tv-studio",
-      "version": "1.0.0",
-      "description": "Panel lateral, fondo profundo y un brillo de color en la app enfocada.",
+      "version": "1.1.0",
+      "description": "Panel lateral sobrio en grises, con un solo acento menta.",
       "layout": "sidebar",
-      "path": "themes/neon",
+      "path": "themes/grafito",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "alto-contraste",
+      "name": "Alto contraste",
+      "author": "adb-tv-studio",
+      "version": "1.1.0",
+      "description": "Negro y blanco con un foco amarillo grueso y los nombres siempre visibles.",
+      "layout": "grid",
+      "path": "themes/alto-contraste",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "retro",
+      "name": "Retro",
+      "author": "adb-tv-studio",
+      "version": "1.1.0",
+      "description": "Cuadrícula de esquinas rectas, letra monoespaciada y colores de consola vieja.",
+      "layout": "grid",
+      "path": "themes/retro",
       "files": [
         "theme.json"
       ]
@@ -78,7 +102,7 @@
       "id": "bosque",
       "name": "Bosque",
       "author": "adb-tv-studio",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "El diseño clásico sobre un degradado verde profundo.",
       "layout": "classic",
       "path": "themes/bosque",
@@ -90,10 +114,34 @@
       "id": "oceano",
       "name": "Océano",
       "author": "adb-tv-studio",
-      "version": "1.0.0",
-      "description": "Cuadrícula en azules fríos con un foco de brillo turquesa.",
+      "version": "1.1.0",
+      "description": "Cuadrícula en turquesas profundos con un foco de brillo aguamarina.",
       "layout": "grid",
       "path": "themes/oceano",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "atardecer",
+      "name": "Atardecer",
+      "author": "adb-tv-studio",
+      "version": "1.1.0",
+      "description": "Degradado de ciruela a noche con brillo naranja detrás del dock.",
+      "layout": "rows",
+      "path": "themes/atardecer",
+      "files": [
+        "theme.json"
+      ]
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "author": "adb-tv-studio",
+      "version": "1.1.0",
+      "description": "Panel lateral sobre violeta profundo con un brillo magenta en la app enfocada.",
+      "layout": "sidebar",
+      "path": "themes/arcade",
       "files": [
         "theme.json"
       ]

@@ -4,20 +4,20 @@
   "id": "bosque",
   "name": "Bosque",
   "author": "adb-tv-studio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "layout": "classic",
   "description": "El diseño clásico sobre un degradado verde profundo.",
   "colors": {
-    "background": "#07130D",
-    "surface": "#10241A",
-    "text": "#EEF5EF",
+    "background": "#08130D",
+    "surface": "#11241A",
+    "text": "#EEF4EE",
     "accent": "auto"
   },
   "background": {
     "type": "gradient",
     "colors": [
-      "#163A26",
-      "#050C08"
+      "#183A28",
+      "#060D09"
     ],
     "angle": 160
   },

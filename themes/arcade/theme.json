@@ -1,23 +1,23 @@
 {
   "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
   "schemaVersion": 1,
-  "id": "neon",
-  "name": "Neón",
+  "id": "arcade",
+  "name": "Arcade",
   "author": "adb-tv-studio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "layout": "sidebar",
-  "description": "Panel lateral, fondo profundo y un brillo de color en la app enfocada.",
+  "description": "Panel lateral sobre violeta profundo con un brillo magenta en la app enfocada.",
   "colors": {
-    "background": "#0D0221",
-    "surface": "#1A0B3D",
-    "text": "#F0F0FF",
-    "accent": "#00E5FF"
+    "background": "#0E0A16",
+    "surface": "#1C1028",
+    "text": "#F5F0FF",
+    "accent": "#FF3DA5"
   },
   "background": {
     "type": "gradient",
     "colors": [
-      "#2A0A5E",
-      "#05010F"
+      "#2B0E3A",
+      "#0A0610"
     ],
     "angle": 135
   },

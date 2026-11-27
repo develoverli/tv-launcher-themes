@@ -4,14 +4,14 @@
   "id": "minimal",
   "name": "Minimal",
   "author": "adb-tv-studio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "layout": "minimal",
-  "description": "Un reloj grande, pocas apps y nada más.",
+  "description": "Un reloj grande, un contorno fino y casi nada más.",
   "colors": {
-    "background": "#101012",
-    "surface": "#1A1A1D",
-    "text": "#E8E8EA",
-    "accent": "#E8E8EA"
+    "background": "#121110",
+    "surface": "#1C1A18",
+    "text": "#ECE8E1",
+    "accent": "#ECE8E1"
   },
   "background": {
     "type": "solid"

@@ -4,14 +4,14 @@
   "id": "retro",
   "name": "Retro",
   "author": "adb-tv-studio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "layout": "grid",
   "description": "Cuadrícula de esquinas rectas, letra monoespaciada y colores de consola vieja.",
   "colors": {
-    "background": "#1D1A2F",
-    "surface": "#2B2645",
-    "text": "#F4E9CD",
-    "accent": "#FF6B35"
+    "background": "#1A1424",
+    "surface": "#2A2138",
+    "text": "#F3E6C8",
+    "accent": "#FF7A3D"
   },
   "background": {
     "type": "solid"

@@ -4,20 +4,20 @@
   "id": "oceano",
   "name": "Océano",
   "author": "adb-tv-studio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "layout": "grid",
-  "description": "Cuadrícula en azules fríos con un foco de brillo turquesa.",
+  "description": "Cuadrícula en turquesas profundos con un foco de brillo aguamarina.",
   "colors": {
-    "background": "#04121F",
-    "surface": "#0B2236",
-    "text": "#E6F4FF",
-    "accent": "#3DD6D0"
+    "background": "#031518",
+    "surface": "#0B2528",
+    "text": "#E4F6F4",
+    "accent": "#3ED6C4"
   },
   "background": {
     "type": "gradient",
     "colors": [
-      "#0B3556",
-      "#020A12"
+      "#0B3B40",
+      "#020B0D"
     ],
     "angle": 180
   },

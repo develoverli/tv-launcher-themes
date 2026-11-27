@@ -4,21 +4,21 @@
   "id": "papel",
   "name": "Papel",
   "author": "adb-tv-studio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "layout": "grid",
   "description": "Claro y cálido, con letra serif, para salas con mucha luz.",
   "colors": {
-    "background": "#F3EDE2",
-    "surface": "#E6DDCD",
-    "text": "#2A2622",
-    "accent": "#B5562F"
+    "background": "#F2ECE1",
+    "surface": "#E4DACA",
+    "text": "#241F1A",
+    "accent": "#A8482B"
   },
   "background": {
     "type": "solid"
   },
   "material": "solid",
   "shape": "rounded",
-  "focus": "lift",
+  "focus": "outline",
   "font": "serif",
   "motion": "smooth",
   "labels": "always",

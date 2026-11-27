@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "alto-contraste",
+  "name": "Alto contraste",
+  "author": "adb-tv-studio",
+  "version": "1.1.0",
+  "layout": "grid",
+  "description": "Negro y blanco con un foco amarillo grueso y los nombres siempre visibles.",
+  "colors": {
+    "background": "#000000",
+    "surface": "#1A1A1A",
+    "text": "#FFFFFF",
+    "accent": "#FFD60A"
+  },
+  "background": {
+    "type": "solid"
+  },
+  "material": "solid",
+  "shape": "rounded",
+  "focus": "outline",
+  "font": "sans",
+  "motion": "none",
+  "labels": "always",
+  "clock": {
+    "visible": true,
+    "size": "large"
+  },
+  "columns": 4,
+  "glow": false
+}

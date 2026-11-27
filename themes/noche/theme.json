@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "noche",
+  "name": "Noche",
+  "author": "adb-tv-studio",
+  "version": "1.1.0",
+  "layout": "classic",
+  "description": "Para ver a oscuras: brillo bajo, texto atenuado y un acento ámbar que no encandila.",
+  "colors": {
+    "background": "#07070A",
+    "surface": "#121216",
+    "text": "#B9B3A8",
+    "accent": "#C98A3A"
+  },
+  "background": {
+    "type": "solid"
+  },
+  "material": "solid",
+  "shape": "rounded",
+  "focus": "outline",
+  "font": "outfit",
+  "motion": "smooth",
+  "labels": "focus",
+  "clock": {
+    "visible": true,
+    "size": "normal"
+  },
+  "columns": 4,
+  "glow": false
+}

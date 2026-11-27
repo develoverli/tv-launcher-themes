@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/develoverli/tv-launcher-themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "grafito",
+  "name": "Grafito",
+  "author": "adb-tv-studio",
+  "version": "1.1.0",
+  "layout": "sidebar",
+  "description": "Panel lateral sobrio en grises, con un solo acento menta.",
+  "colors": {
+    "background": "#16171A",
+    "surface": "#202226",
+    "text": "#E9EAEC",
+    "accent": "#8FD3B6"
+  },
+  "background": {
+    "type": "solid"
+  },
+  "material": "solid",
+  "shape": "rounded",
+  "focus": "glow",
+  "font": "sans",
+  "motion": "smooth",
+  "labels": "focus",
+  "clock": {
+    "visible": true,
+    "size": "large"
+  },
+  "columns": 4,
+  "glow": false
+}
